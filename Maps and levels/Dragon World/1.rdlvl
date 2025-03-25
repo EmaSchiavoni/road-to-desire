@@ -1,0 +1,1500 @@
+{
+  "format_version": 1,
+  "time": 100,
+  "music": "Sounds/Music/level_2.ogg",
+  "size": {
+    "x": 33,
+    "y": 12
+  },
+  "startTile": {
+    "x": 2,
+    "y": 10
+  },
+  "endTile": {
+    "x": 32,
+    "y": 1
+  },
+  "tileset": "Textures/Tilesets/sand.png",
+  "background": "Textures/LevelsBackgrounds/sky.jpg",
+  "animatedTextures": [
+    {
+      "texture_path": "Textures/Animateds/lucky.png",
+      "duration": 1
+    }
+  ],
+  "parallaxTextures": [
+    {
+      "img": "Textures/Parallax/mountains-lite-llong.png",
+      "repeat": true,
+      "repeat_space": 0,
+      "z": 10,
+      "y": 0,
+      "begin": 0,
+      "end": 1320
+    }
+  ],
+  "characters": [],
+  "collectables": [
+    {
+      "tilePos": {
+        "x": 4,
+        "y": 1
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 6,
+        "y": 4
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 7,
+        "y": 1
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 7,
+        "y": 4
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 7,
+        "y": 9
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 8,
+        "y": 9
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 9,
+        "y": 2
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 9,
+        "y": 4
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 9,
+        "y": 9
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 10,
+        "y": 4
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 11,
+        "y": 4
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 12,
+        "y": 1
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 12,
+        "y": 7
+      },
+      "id": 2
+    },
+    {
+      "tilePos": {
+        "x": 13,
+        "y": 1
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 19,
+        "y": 5
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 20,
+        "y": 5
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 25,
+        "y": 5
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 27,
+        "y": 3
+      },
+      "id": 0
+    },
+    {
+      "tilePos": {
+        "x": 28,
+        "y": 3
+      },
+      "id": 0
+    }
+  ],
+  "tilemap": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 41,
+        "is_animated": false,
+        "is_solid": false,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 1,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "texture_id": 5,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 2,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      {
+        "texture_id": 41,
+        "is_animated": false,
+        "is_solid": false,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 5,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 4,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 1,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 42,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": true,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": {
+          "size": {
+            "x": 0.825,
+            "y": 0.375
+          },
+          "position": {
+            "x": 7,
+            "y": 25
+          }
+        }
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": true,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 1,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 2,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "texture_id": 6,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 3,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 1,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      {
+        "texture_id": 42,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 7,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 4,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 24,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "texture_id": 7,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "texture_id": 7,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      {
+        "texture_id": 1,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "texture_id": 42,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": true,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 7,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 23,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "texture_id": 8,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 1,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 1,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 41,
+        "is_animated": false,
+        "is_solid": false,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 42,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": true,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": {
+          "size": {
+            "x": 0.825,
+            "y": 0.375
+          },
+          "position": {
+            "x": 0,
+            "y": 25
+          }
+        }
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": true,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 2,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": true,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 2,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      {
+        "texture_id": 41,
+        "is_animated": false,
+        "is_solid": false,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 40,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": true,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 1,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 42,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": true,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": true,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 1,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "texture_id": 0,
+        "is_animated": true,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": true,
+        "hits_to_break": 2,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 40,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 40,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 5,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 37,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 40,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "texture_id": 11,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 40,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "texture_id": 43,
+        "is_animated": false,
+        "is_solid": false,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      {
+        "texture_id": 5,
+        "is_animated": false,
+        "is_solid": true,
+        "is_harmful": false,
+        "is_breakable": false,
+        "hits_to_break": 0,
+        "breakable_side": 0,
+        "hitbox": null
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

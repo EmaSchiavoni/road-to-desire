@@ -1,0 +1,63 @@
+# Archivos de Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.ncb
+*.log
+*.tlog
+*.obj
+*.pch
+*.idb
+*.ilk
+*.pdb
+*.ipch
+*.aps
+*.sln.cache
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Archivos de compilación
+Debug/
+Release/
+x64/
+x86/
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.dll
+*.exe
+*.exp
+*.lib
+*.a
+*.so
+*.dylib
+*.bin
+
+# Dependencias (descargadas a parte)
+lib/*/
+lib/*.lib
+lib/*.pdb
+include/*/
+
+# Archivos de CMake (si lo usas)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos de configuración del usuario
+*.user
+*.userosscache
+*.VC.db
+
+# Archivos generados del juego
+Saved games/Dragon World/*.rdsave
+Saved games/Dragon World/*.txt

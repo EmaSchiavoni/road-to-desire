@@ -1,0 +1,7 @@
+En este directorio se generaran los archivos 
+profile_list.txt y high_scores.txt que contendran 
+la lista de nombre de los perfiles creados y las 
+puntuaciones más altas registradas respectivamente.
+
+La información de cada perfil se guardara en este 
+directorio dentro de un archivo [nombre_del_perfil].rdsave
