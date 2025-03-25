@@ -14,6 +14,7 @@ Game::Game() :
 {
     m_window.setMouseCursorVisible(false);
     m_window.setVerticalSyncEnabled(true);
+    m_window.setTitle(m_title);
     m_currentScene = new MainMenu();
 }
 
