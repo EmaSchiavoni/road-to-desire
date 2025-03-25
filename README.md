@@ -64,6 +64,7 @@ Para compilar el proyecto, asegúrate de incluir los directorios correspondiente
 
 En Windows, puedes compilar con MinGW o utilizar un entorno como Visual Studio configurando adecuadamente los directorios de inclusión y enlace.
 
+> Luego de cada compilación debe asegurarse de que todos los directorios de assets se encuentren en el mismo directorio que el ejecutable.
 
 ## 📊 Estado del proyecto
 
