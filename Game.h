@@ -26,6 +26,7 @@ namespace rtd {
         void update(const float& delta_time);
         void draw();
         void setScene(rtd::Scene* next_scene);
+        void setWindowIcon();
 
         void quit();
         ~Game();

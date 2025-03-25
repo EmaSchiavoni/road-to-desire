@@ -16,6 +16,7 @@ Game::Game() :
     m_window.setVerticalSyncEnabled(true);
     m_window.setTitle(m_title);
     m_currentScene = new MainMenu();
+    this->setWindowIcon();
 }
 
 void Game::run()
@@ -59,6 +60,7 @@ void Game::processEvents()
             switch (event.key.code){
             case Keyboard::F11:
                 m_sizeHandler.toggleFullscreen();
+                this->setWindowIcon();
                 break;
             }
             break;
@@ -80,6 +82,13 @@ void Game::draw()
 void Game::setScene(Scene* next_scene)
 {
     m_nextScene = next_scene;
+}
+
+void Game::setWindowIcon()
+{
+    Image icon;
+    if (icon.loadFromFile(WIN_ICON_PATH))
+        m_window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 }
 
 void Game::quit()
